@@ -1,0 +1,146 @@
+body{
+   margin: 0;
+   padding: 40;
+   background-color: hsl(0, 9%, 96%);
+   font-family: 'Poppins';
+   font-size: 15px;
+}
+
+.text1{
+   font-size: 35px;
+   text-align: center;
+   line-height: 30px;
+   color: hsl(234, 12%, 34%);
+   font-weight: 200;
+}
+.text2{
+   font-size: 35px;
+   text-align: center;
+   line-height: 10px;
+   color: hsl(234, 12%, 34%);
+}
+.para1{
+   color: hsl(229, 6%, 66%);
+   text-align: center;
+   width: 515px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* cards */
+
+.containerCards{
+   position: relative;
+   width: 1110px;
+   height: 600px;
+   margin-top: 60px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.cardModel{
+   position: absolute;
+   top: 50px;
+   background-color: white;
+   width: 350px;
+   height: 250px;
+   border-radius: 5px 5px 10px 10px;
+   box-shadow: 0px 8px 5pxhsl(229, 6%, 66%);
+}
+
+
+
+.lineCard{
+   position: absolute;
+   height: 4px;
+   width: 100%;
+   border-radius: 10px 10px 0 0;
+}
+.lineColorCyan{ background-color: hsl(180, 62%, 55%);}
+.lineColorRed { background-color: hsl(0, 78%, 62%);}
+.lineColorOrange { background-color:hsl(34, 97%, 64%);}
+.lineColorBlue { background-color: hsl(212, 86%, 64%);}
+
+
+.nameCard{
+   padding-top:25px ;
+   padding-left: 30px;
+   font-weight: 600;
+}
+
+.textCard{
+   font-weight: 200;
+   color: hsl(229, 6%, 66%);
+   padding-left: 30px;
+}
+
+.logoCard{
+   background-color: none;
+   position: absolute;
+   bottom: 30px;
+   right: 30px;
+   width: 64px;
+   height: 64px;
+}
+.logoSupervisor{
+   background-image: url(images/icon-supervisor.svg);
+}
+.logoTeamBuilder{
+   background-image: url(images/icon-team-builder.svg);
+}
+.logoKarma{
+   background-image: url(images/icon-karma.svg);
+}
+.logoCalculator{
+   background-image: url(images/icon-calculator.svg);
+}
+
+/* Position cards */
+
+.cardSupervisor{
+   top: 140px;
+   left: 0px;
+}
+.cardTeamBuider{
+   top: 0px;
+   left:380px;
+}
+.cardKarma{
+   top: 280px;
+   left:380px;
+}
+.cardCalculator{
+   top: 140px;
+   left:760px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:375px){
+   .text1{
+      margin-top: 100px;
+      width: 370px;
+      font-size: 25px;
+   }
+   .text2{
+      font-size: 25px;
+      width: 370px;
+   }
+   .para1{
+      margin-top: 50px;
+      width: 310px;
+   }
+   .containerCards{
+      width: 310px;
+   }
+   .cardModel{
+      position: relative;
+      width: 310px;
+      height: 220px;
+      margin-bottom: 20px;
+      top: 0;
+      left: 0;
+   }
+   .textCard{
+      font-size: 12px;
+   }
+}
